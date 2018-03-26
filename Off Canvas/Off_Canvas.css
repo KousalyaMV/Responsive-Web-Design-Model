@@ -1,0 +1,109 @@
+/*body*/
+body {
+
+  font-family:  'Camphor', sans-serif;    
+        font-size:14px;
+		overflow-x: hidden;
+}
+
+ul li
+{
+  font-size:1.3em;  
+    font-weight: 300;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Camphor', sans-serif;
+    font-weight: 300;
+  text-transform: uppercase; }
+
+/*padding for all section */
+
+
+/* Start Navigation */
+#mainNav {
+  font-family: 'Camphor',sans-serif;/*'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-weight: 300;
+  text-transform: uppercase;
+  border: none;
+  background:#732655 }
+  #mainNav a:focus {
+    outline: none; }
+  #mainNav .navbar-brand {
+    font-size: 1.1em;
+    color: white; }
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: white; }
+  #mainNav .navbar-nav {
+    letter-spacing: 1px; }
+    #mainNav .navbar-nav li.nav-item a.nav-link {
+      color: white; }
+      #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+        color: #75B9D1;
+        outline: none; }
+      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+        color: #75B9D1; }
+  #mainNav .navbar-toggler {
+    font-size: 1.2em;
+    padding: 11px;
+    text-transform: uppercase;
+    color: white;
+    border-color: white; }
+    #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+      color:white;
+      border-color: white;
+      background-color: #75B9D1; }
+/* End Navigation */
+
+/*Home Section*/
+header.masthead {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: skyblue;
+  background:grey; }
+  header.masthead  .name {
+    font-family: 'Camphor', sans-serif;/*'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+    text-transform: uppercase; }
+  header.masthead .para {
+    font-size: 1.25em;
+    font-weight: 300; }
+/* End Home Section */
+
+/*media Queries */
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s; }
+    #mainNav .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #75B9D1;
+      border-radius: 3px;
+      background: #732655; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color:white;
+        background: #75B9D1; }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em; } 
+    
+}
+
